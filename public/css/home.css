@@ -3,6 +3,9 @@
   display: flex;
   flex-direction: column;
 }
+.whate_svg {
+  filter: brightness(0) invert(1);
+}
 .container .category_top {
   width: 100%;
   height: auto;
@@ -776,4 +779,132 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+/* EVENT */
+
+.home_page .event_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: 632px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background: url(../images/icons/event_bg.png);
+}
+
+.event_frame .container {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.event_frame .container .event_content_box {
+  width: 340px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event_frame .event_content_box .even_title {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+}
+
+.event_frame .event_content_box .timer_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
+
+.event_frame .timer_wrapper .timer_box {
+  width: 82px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.event_frame .timer_box strong {
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.event_frame .timer_box span {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+.event_frame .event_content_box a {
+  width: 140px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  text-align: center;
+
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+
+  background: rgb(245, 195, 75);
+}
+
+.event_frame .container .even_product_box {
+  width: 930px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.event_frame .even_product_box .even_product_boxes {
+  position: relative;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.event_frame .even_product_boxes .even_product_box {
+  margin-right: 8px;
+  width: 205px;
+  height: 392px;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.event_frame .even_product_box .event_product_img {
+  width: 100%;
+  height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

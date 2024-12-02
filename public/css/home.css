@@ -1,5 +1,4 @@
 .shop_cattegory_frame .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -270,6 +269,7 @@
   height: 508px;
 
   background-image: url(../images/icons/bg.png);
+  background-size: cover;
   border-radius: 5px;
 }
 
@@ -794,6 +794,7 @@
   justify-content: center;
 
   background: url(../images/icons/event_bg.png);
+  background-size: cover;
 }
 
 .event_frame .container {

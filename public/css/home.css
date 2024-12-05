@@ -196,7 +196,7 @@
   overflow: hidden;
 }
 
-.container .product_content_box .review_box {
+event_frame .event_content_box .even_title {
   margin-top: 7px;
 
   display: flex;
@@ -727,6 +727,7 @@
   bottom: 15px;
 }
 
+/* tv frame */
 .home_page .tv_frame {
   position: relative;
   margin-top: 90px;
@@ -858,8 +859,8 @@
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
-
   font-family: var(--font);
+
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
